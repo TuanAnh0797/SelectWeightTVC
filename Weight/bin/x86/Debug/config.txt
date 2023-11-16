@@ -1,0 +1,6 @@
+﻿HiLow Check
+Có dấu CE>"C:\Users\70P7970\Desktop\New folder\file1.txt"
+Không dấu CE>"C:\Users\70P7970\Desktop\New folder\file5.txt"
+Normal Check
+Có dấu CE>"C:\Users\70P7970\Desktop\New folder\file3.txt"
+Không dấu CE>"C:\Users\70P7970\Desktop\New folder\file4.txt"

@@ -1,0 +1,13 @@
+D:\Weight\Weight\bin\Debug\Weight.exe
+D:\Weight\Weight\bin\Debug\Weight.pdb
+D:\Weight\Weight\obj\Debug\Weight.csproj.AssemblyReference.cache
+D:\Weight\Weight\obj\Debug\Weight.Form1.resources
+D:\Weight\Weight\obj\Debug\Weight.Properties.Resources.resources
+D:\Weight\Weight\obj\Debug\Weight.csproj.GenerateResource.cache
+D:\Weight\Weight\obj\Debug\Weight.csproj.CoreCompileInputs.cache
+D:\Weight\Weight\obj\Debug\Weight.exe
+D:\Weight\Weight\obj\Debug\Weight.pdb
+D:\Weight\Weight\obj\Debug\Weight.FrHiLowCheck.resources
+D:\Weight\Weight\obj\Debug\Weight.FrNormalCheck.resources
+D:\Weight\Weight\obj\Debug\Weight.Login.resources
+D:\Weight\Weight\obj\Debug\Weight.SetUp.resources
