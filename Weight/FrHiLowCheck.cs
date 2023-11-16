@@ -121,6 +121,7 @@ namespace Weight
                 MessageBox.Show(ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             timer1.Stop();
+            Environment.Exit(0);
            
 
         }
@@ -144,6 +145,7 @@ namespace Weight
                 MessageBox.Show(ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             timer2.Stop();
+            Environment.Exit(0);
         }
 
         private void txb_Lot_MouseDown(object sender, MouseEventArgs e)

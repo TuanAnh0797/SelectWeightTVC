@@ -11,3 +11,15 @@ D:\Weight\Weight\obj\Debug\Weight.FrHiLowCheck.resources
 D:\Weight\Weight\obj\Debug\Weight.FrNormalCheck.resources
 D:\Weight\Weight\obj\Debug\Weight.Login.resources
 D:\Weight\Weight\obj\Debug\Weight.SetUp.resources
+C:\Users\70P7970\Desktop\New folder (2)\Weight\Weight\bin\Debug\Weight.exe
+C:\Users\70P7970\Desktop\New folder (2)\Weight\Weight\bin\Debug\Weight.pdb
+C:\Users\70P7970\Desktop\New folder (2)\Weight\Weight\obj\Debug\Weight.csprojResolveAssemblyReference.cache
+C:\Users\70P7970\Desktop\New folder (2)\Weight\Weight\obj\Debug\Weight.Form1.resources
+C:\Users\70P7970\Desktop\New folder (2)\Weight\Weight\obj\Debug\Weight.FrHiLowCheck.resources
+C:\Users\70P7970\Desktop\New folder (2)\Weight\Weight\obj\Debug\Weight.FrNormalCheck.resources
+C:\Users\70P7970\Desktop\New folder (2)\Weight\Weight\obj\Debug\Weight.Login.resources
+C:\Users\70P7970\Desktop\New folder (2)\Weight\Weight\obj\Debug\Weight.Properties.Resources.resources
+C:\Users\70P7970\Desktop\New folder (2)\Weight\Weight\obj\Debug\Weight.SetUp.resources
+C:\Users\70P7970\Desktop\New folder (2)\Weight\Weight\obj\Debug\Weight.csproj.GenerateResource.Cache
+C:\Users\70P7970\Desktop\New folder (2)\Weight\Weight\obj\Debug\Weight.exe
+C:\Users\70P7970\Desktop\New folder (2)\Weight\Weight\obj\Debug\Weight.pdb
