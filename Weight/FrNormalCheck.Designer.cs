@@ -93,7 +93,7 @@
             this.MaximizeBox = false;
             this.Name = "FrNormalCheck";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Phần mềm lựa chọn chương trình cân trọng lượng >> Chế độ thường";
+            this.Text = "Chế độ thường";
             this.ResumeLayout(false);
             this.PerformLayout();
 

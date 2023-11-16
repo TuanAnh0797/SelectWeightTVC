@@ -22,8 +22,40 @@ namespace Weight
         {
             try
             {
-                writecsv();
-                MessageBox.Show("Cập nhật thành công");
+                if (txb_HL.Text == "")
+                {
+                    MessageBox.Show("Chưa cài đặt link Hi-Low check không dấu CE", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else if(txb_N.Text =="")
+                {
+                    MessageBox.Show("Chưa cài đặt link chế độ thường không dấu CE", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else if(txb_HL_CE.Text =="")
+                {
+                    MessageBox.Show("Chưa cài đặt link Hi-Low check có dấu CE", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else if(txb_N_CE.Text == "")
+                {
+                    MessageBox.Show("Chưa cài đặt link chế độ thường có dấu CE", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else if (txb_HL.Text == txb_N.Text || txb_HL.Text == txb_HL_CE.Text || txb_HL.Text == txb_N_CE.Text)
+                {
+                    MessageBox.Show("Link Hi-Low check không dấu CE bị lặp", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else if (txb_N.Text == txb_HL_CE.Text || txb_N.Text == txb_N_CE.Text)
+                {
+                    MessageBox.Show("Link chế độ thường không dấu CE bị lặp", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else if(txb_HL_CE.Text == txb_N_CE.Text)
+                {
+                    MessageBox.Show("Link Hi-Low check có dấu CE bị lặp", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    writecsv();
+                    MessageBox.Show("Cập nhật thành công");
+                }
+               
             }
             catch (Exception ex)
             {

@@ -93,7 +93,7 @@
             this.MaximizeBox = false;
             this.Name = "FrHiLowCheck";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Phần mềm lựa chọn chương trình cân trọng lượng >> Chế độ Hi-Low Check ";
+            this.Text = "Chế độ Hi-Low Check ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
