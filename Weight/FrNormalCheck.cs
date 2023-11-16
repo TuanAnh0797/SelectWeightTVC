@@ -108,9 +108,12 @@ namespace Weight
                 if (System.IO.File.Exists(filePathCE))
                 {
                     Process.Start(filePathCE);
+                    timer1.Stop();
+                    Environment.Exit(0);
                 }
                 else
                 {
+                    timer1.Stop();
                     MessageBox.Show($"Không tìm thấy File \n {filePathCE}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
@@ -119,8 +122,7 @@ namespace Weight
                 timer1.Stop();
                 MessageBox.Show(ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            timer1.Stop();
-            Environment.Exit(0);
+           
         }
 
         private void timer2_Tick(object sender, EventArgs e)
@@ -130,9 +132,12 @@ namespace Weight
                 if (System.IO.File.Exists(filePathnoneCE))
                 {
                     Process.Start(filePathnoneCE);
+                    timer2.Stop();
+                    Environment.Exit(0);
                 }
                 else
                 {
+                    timer2.Stop();
                     MessageBox.Show($"Không tìm thấy File \n {filePathnoneCE}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
@@ -141,8 +146,7 @@ namespace Weight
                 timer2.Stop();
                 MessageBox.Show(ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            timer2.Stop();
-            Environment.Exit(0);
+           
         }
 
         private void txb_lot_MouseDown(object sender, MouseEventArgs e)
