@@ -1,6 +1,6 @@
 ﻿HiLow Check
-Có dấu CE>"C:\Users\70P7970\Desktop\New folder\file2.txt"
-Không dấu CE>"C:\Users\70P7970\Desktop\New folder\file3.txt"
+Có dấu CE>"C:\Users\70P7970\Desktop\New folder\file20.txt"
+Không dấu CE>"C:\Users\70P7970\Desktop\New folder\file30.txt"
 Normal Check
-Có dấu CE>"C:\Users\70P7970\Desktop\New folder\file1.txt"
-Không dấu CE>"C:\Users\70P7970\Desktop\New folder\file5.txt"
+Có dấu CE>"C:\Users\70P7970\Desktop\New folder\file10.txt"
+Không dấu CE>"C:\Users\70P7970\Desktop\New folder\file50.txt"

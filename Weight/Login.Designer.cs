@@ -34,6 +34,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txb_password = new System.Windows.Forms.TextBox();
             this.btn_Login = new System.Windows.Forms.Button();
+            this.ckb_show = new System.Windows.Forms.CheckBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txb_user
@@ -95,11 +97,36 @@
             this.btn_Login.UseVisualStyleBackColor = false;
             this.btn_Login.Click += new System.EventHandler(this.btn_Login_Click);
             // 
+            // ckb_show
+            // 
+            this.ckb_show.AutoSize = true;
+            this.ckb_show.Location = new System.Drawing.Point(191, 134);
+            this.ckb_show.Name = "ckb_show";
+            this.ckb_show.Size = new System.Drawing.Size(145, 24);
+            this.ckb_show.TabIndex = 5;
+            this.ckb_show.Text = "Show PassWord";
+            this.ckb_show.UseVisualStyleBackColor = true;
+            this.ckb_show.CheckedChanged += new System.EventHandler(this.ckb_show_CheckedChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label4.Location = new System.Drawing.Point(141, 161);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(121, 16);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Change PassWord";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(421, 150);
+            this.ClientSize = new System.Drawing.Size(421, 184);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.ckb_show);
             this.Controls.Add(this.btn_Login);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txb_password);
@@ -126,5 +153,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txb_password;
         private System.Windows.Forms.Button btn_Login;
+        private System.Windows.Forms.CheckBox ckb_show;
+        private System.Windows.Forms.Label label4;
     }
 }

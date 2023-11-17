@@ -10,10 +10,12 @@ using System.Windows.Forms;
 
 namespace Weight
 {
-    public partial class Login : Form
+    public partial class ChangePassWord : Form
     {
         string password;
-        public Login()
+        public delegate void mydeledate();
+        public mydeledate confirm;
+        public ChangePassWord()
         {
             InitializeComponent();
             getconfig();
@@ -35,7 +37,7 @@ namespace Weight
                     }
                 }
                 password = data[0].Split('>')[1];
-                
+
             }
             catch (Exception ex)
             {
@@ -46,55 +48,50 @@ namespace Weight
 
 
         }
-        private void btn_Login_Click(object sender, EventArgs e)
+
+        private void btn_save_Click(object sender, EventArgs e)
         {
-            if (txb_user.Text == "PME" && txb_password.Text == password)
+            if (txb_curent.Text == password)
             {
-                SetUp p = new SetUp();
-                p.Show();
-                txb_user.Text = "";
-                txb_password.Text = "";
+                writecsv();
+                getconfig();
+                confirm?.Invoke();
+                MessageBox.Show("Thay đổi mật khẩu thành công");
             }
             else
             {
-                MessageBox.Show($"Không đúng mật khẩu", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
+                MessageBox.Show("Mật khẩu hiện tại không đúng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-        private void txb_user_KeyDown(object sender, KeyEventArgs e)
+        public void writecsv()
         {
-            if (e.KeyCode == Keys.Enter) 
+            List<string> dataconfig = new List<string>();
+            dataconfig.Add($"PassWord>{txb_new.Text}");
+            string filepath = Directory.GetCurrentDirectory() + "\\User.txt";
+            File.Delete(filepath);
+            using (var sr = new StreamWriter(filepath, true, Encoding.UTF8))
             {
-                txb_password.Focus();
-            }
-        }
+                dataconfig.ForEach(data =>
+                {
+                    sr.WriteLine(data);
 
-        private void txb_password_KeyDown(object sender, KeyEventArgs e)
-        {
-            if(e.KeyCode == Keys.Enter)
-            {
-                btn_Login.Focus();
+                });
             }
+
         }
 
         private void ckb_show_CheckedChanged(object sender, EventArgs e)
         {
             if (ckb_show.Checked)
             {
-                txb_password.UseSystemPasswordChar = false;
+                txb_curent.UseSystemPasswordChar = false;
+                txb_new.UseSystemPasswordChar = false;
             }
             else
             {
-                txb_password.UseSystemPasswordChar = true;
+                txb_curent.UseSystemPasswordChar = true;
+                txb_new.UseSystemPasswordChar = true;
             }
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-            ChangePassWord p = new ChangePassWord();
-            p.confirm = new ChangePassWord.mydeledate(getconfig);
-            p.Show();
         }
     }
 }

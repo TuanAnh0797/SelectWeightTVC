@@ -58,27 +58,48 @@ namespace Weight
                 {
                     if (txb_lot.Text.Length == 7 && txb_lot.Text.Substring(6, 1) == "A")
                     {
-                        lbl_mode.Text = "Có dấu CE (HDSD A1)";
-                        lbl_mode.BackColor = Color.LightGreen;
-                        lbl_mode.Visible = true;
-                        timer1.Start();
-                        
-                    }
-                    else if (txb_lot.Text.Length == 8)
-                    {
-                        if (txb_lot.Text.Substring(6, 2) == "VA")
+                        if (System.IO.File.Exists(filePathCE))
                         {
                             lbl_mode.Text = "Có dấu CE (HDSD A1)";
                             lbl_mode.BackColor = Color.LightGreen;
                             lbl_mode.Visible = true;
                             timer1.Start();
                         }
+                        else
+                        {
+                            MessageBox.Show($"Không tìm thấy File \n {filePathCE}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+
+                    }
+                    else if (txb_lot.Text.Length == 8)
+                    {
+                        if (txb_lot.Text.Substring(6, 2) == "VA")
+                        {
+                            if (System.IO.File.Exists(filePathCE))
+                            {
+                                lbl_mode.Text = "Có dấu CE (HDSD A1)";
+                                lbl_mode.BackColor = Color.LightGreen;
+                                lbl_mode.Visible = true;
+                                timer1.Start();
+                            }
+                            else
+                            {
+                                MessageBox.Show($"Không tìm thấy File \n {filePathCE}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
+                        }
                         else if (txb_lot.Text.Substring(6, 2) == "TA")
                         {
-                            lbl_mode.Text = "Không có dấu CE (HDSD quyền)";
-                            lbl_mode.BackColor = Color.LightYellow;
-                            lbl_mode.Visible = true;
-                           timer2.Start();
+                            if (System.IO.File.Exists(filePathnoneCE))
+                            {
+                                lbl_mode.Text = "Không có dấu CE (HDSD quyền)";
+                                lbl_mode.BackColor = Color.LightYellow;
+                                lbl_mode.Visible = true;
+                                timer2.Start();
+                            }
+                            else
+                            {
+                                MessageBox.Show($"Không tìm thấy File \n {filePathnoneCE}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
                         }
                         else
                         {
@@ -105,17 +126,9 @@ namespace Weight
         {
             try
             {
-                if (System.IO.File.Exists(filePathCE))
-                {
                     Process.Start(filePathCE);
                     timer1.Stop();
                     Environment.Exit(0);
-                }
-                else
-                {
-                    timer1.Stop();
-                    MessageBox.Show($"Không tìm thấy File \n {filePathCE}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
             }
             catch (Exception ex)
             {
@@ -129,17 +142,9 @@ namespace Weight
         {
             try
             {
-                if (System.IO.File.Exists(filePathnoneCE))
-                {
                     Process.Start(filePathnoneCE);
                     timer2.Stop();
                     Environment.Exit(0);
-                }
-                else
-                {
-                    timer2.Stop();
-                    MessageBox.Show($"Không tìm thấy File \n {filePathnoneCE}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
             }
             catch (Exception ex)
             {

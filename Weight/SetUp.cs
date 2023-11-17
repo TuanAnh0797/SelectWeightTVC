@@ -104,6 +104,7 @@ namespace Weight
                 txb_N_CE.Text = data[4].Split('>')[1].TrimStart('"').TrimEnd('"');
                 txb_HL.Text = data[2].Split('>')[1].TrimStart('"').TrimEnd('"');
                 txb_N.Text = data[5].Split('>')[1].TrimStart('"').TrimEnd('"');
+               
             }
             catch (Exception ex)
             {
