@@ -5,7 +5,6 @@ using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
-using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
@@ -52,73 +51,7 @@ namespace Weight
 
         private void txb_lot_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyData == Keys.Enter)
-            {
-                try
-                {
-                    if (txb_lot.Text.Length == 7 && txb_lot.Text.Substring(6, 1) == "A")
-                    {
-                        if (System.IO.File.Exists(filePathCE))
-                        {
-                            lbl_mode.Text = "Có dấu CE (HDSD A1)";
-                            lbl_mode.BackColor = Color.LightGreen;
-                            lbl_mode.Visible = true;
-                            timer1.Start();
-                        }
-                        else
-                        {
-                            MessageBox.Show($"Không tìm thấy File \n {filePathCE}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        }
-
-                    }
-                    else if (txb_lot.Text.Length == 8)
-                    {
-                        if (txb_lot.Text.Substring(6, 2) == "VA")
-                        {
-                            if (System.IO.File.Exists(filePathCE))
-                            {
-                                lbl_mode.Text = "Có dấu CE (HDSD A1)";
-                                lbl_mode.BackColor = Color.LightGreen;
-                                lbl_mode.Visible = true;
-                                timer1.Start();
-                            }
-                            else
-                            {
-                                MessageBox.Show($"Không tìm thấy File \n {filePathCE}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                            }
-                        }
-                        else if (txb_lot.Text.Substring(6, 2) == "TA")
-                        {
-                            if (System.IO.File.Exists(filePathnoneCE))
-                            {
-                                lbl_mode.Text = "Không có dấu CE (HDSD quyền)";
-                                lbl_mode.BackColor = Color.LightYellow;
-                                lbl_mode.Visible = true;
-                                timer2.Start();
-                            }
-                            else
-                            {
-                                MessageBox.Show($"Không tìm thấy File \n {filePathnoneCE}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                            }
-                        }
-                        else
-                        {
-                            MessageBox.Show($"Sai định dạng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        }
-                    }
-                    else
-                    {
-                        MessageBox.Show($"Sai định dạng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                }
-                catch (Exception ex)
-                {
-
-                    MessageBox.Show(ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-                }
-
-            }
+            timer3.Start();
 
         }
 
@@ -157,6 +90,82 @@ namespace Weight
         private void txb_lot_MouseDown(object sender, MouseEventArgs e)
         {
             txb_lot.SelectAll();
+        }
+
+        private void timer3_Tick(object sender, EventArgs e)
+        {
+            try
+            {
+                if (txb_lot.Text.Length == 7 && txb_lot.Text.Substring(6, 1) == "A")
+                {
+                    if (System.IO.File.Exists(filePathCE))
+                    {
+                        lbl_mode.Text = "Có dấu CE (HDSD A1)";
+                        lbl_mode.BackColor = Color.LightGreen;
+                        lbl_mode.Visible = true;
+                        timer3.Stop();
+                        timer1.Start();
+                    }
+                    else
+                    {
+                        timer3.Stop();
+                        MessageBox.Show($"Không tìm thấy File \n {filePathCE}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+
+                }
+                else if (txb_lot.Text.Length == 8)
+                {
+                    if (txb_lot.Text.Substring(6, 2) == "VA")
+                    {
+                        if (System.IO.File.Exists(filePathCE))
+                        {
+                            lbl_mode.Text = "Có dấu CE (HDSD A1)";
+                            lbl_mode.BackColor = Color.LightGreen;
+                            lbl_mode.Visible = true;
+                            timer3.Stop();
+                            timer1.Start();
+                        }
+                        else
+                        {
+                            timer3.Stop();
+                            MessageBox.Show($"Không tìm thấy File \n {filePathCE}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                    else if (txb_lot.Text.Substring(6, 2) == "TA")
+                    {
+                        if (System.IO.File.Exists(filePathnoneCE))
+                        {
+                            lbl_mode.Text = "Không có dấu CE (HDSD quyển)";
+                            lbl_mode.BackColor = Color.LightYellow;
+                            lbl_mode.Visible = true;
+                            timer3.Stop();
+                            timer2.Start();
+                        }
+                        else
+                        {
+                            timer3.Stop();
+                            MessageBox.Show($"Không tìm thấy File \n {filePathnoneCE}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                    else
+                    {
+                        timer3.Stop();
+                        MessageBox.Show($"Sai định dạng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                else
+                {
+                    timer3.Stop();
+                    MessageBox.Show($"Sai định dạng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                timer3.Stop();
+                MessageBox.Show(ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+            txb_lot.Text = "";
         }
     }
 }
