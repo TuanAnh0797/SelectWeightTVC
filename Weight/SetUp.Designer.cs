@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             this.btn_save = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txb_HL = new System.Windows.Forms.TextBox();
+            this.grb_1 = new System.Windows.Forms.GroupBox();
             this.txb_N = new System.Windows.Forms.TextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txb_HL = new System.Windows.Forms.TextBox();
+            this.lbl_12 = new System.Windows.Forms.Label();
+            this.lbl_11 = new System.Windows.Forms.Label();
+            this.grb_2 = new System.Windows.Forms.GroupBox();
             this.txb_N_CE = new System.Windows.Forms.TextBox();
             this.txb_HL_CE = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.lbl_22 = new System.Windows.Forms.Label();
+            this.lbl_21 = new System.Windows.Forms.Label();
+            this.grb_1.SuspendLayout();
+            this.grb_2.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_save
@@ -53,47 +53,19 @@
             this.btn_save.UseVisualStyleBackColor = true;
             this.btn_save.Click += new System.EventHandler(this.btn_save_Click);
             // 
-            // groupBox1
+            // grb_1
             // 
-            this.groupBox1.Controls.Add(this.txb_N);
-            this.groupBox1.Controls.Add(this.txb_HL);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(16, 11);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(573, 153);
-            this.groupBox1.TabIndex = 3;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Không dấu CE";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(6, 28);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(140, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Link Hi-Low Check";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(6, 90);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(144, 20);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Link chế độ thường";
-            // 
-            // txb_HL
-            // 
-            this.txb_HL.Location = new System.Drawing.Point(154, 25);
-            this.txb_HL.Multiline = true;
-            this.txb_HL.Name = "txb_HL";
-            this.txb_HL.Size = new System.Drawing.Size(403, 49);
-            this.txb_HL.TabIndex = 2;
+            this.grb_1.Controls.Add(this.txb_N);
+            this.grb_1.Controls.Add(this.txb_HL);
+            this.grb_1.Controls.Add(this.lbl_12);
+            this.grb_1.Controls.Add(this.lbl_11);
+            this.grb_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grb_1.Location = new System.Drawing.Point(16, 11);
+            this.grb_1.Name = "grb_1";
+            this.grb_1.Size = new System.Drawing.Size(573, 153);
+            this.grb_1.TabIndex = 3;
+            this.grb_1.TabStop = false;
+            this.grb_1.Text = "Không dấu CE";
             // 
             // txb_N
             // 
@@ -103,19 +75,47 @@
             this.txb_N.Size = new System.Drawing.Size(403, 49);
             this.txb_N.TabIndex = 3;
             // 
-            // groupBox2
+            // txb_HL
             // 
-            this.groupBox2.Controls.Add(this.txb_N_CE);
-            this.groupBox2.Controls.Add(this.txb_HL_CE);
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(16, 170);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(573, 153);
-            this.groupBox2.TabIndex = 4;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Có dấu CE";
+            this.txb_HL.Location = new System.Drawing.Point(154, 25);
+            this.txb_HL.Multiline = true;
+            this.txb_HL.Name = "txb_HL";
+            this.txb_HL.Size = new System.Drawing.Size(403, 49);
+            this.txb_HL.TabIndex = 2;
+            // 
+            // lbl_12
+            // 
+            this.lbl_12.AutoSize = true;
+            this.lbl_12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_12.Location = new System.Drawing.Point(6, 90);
+            this.lbl_12.Name = "lbl_12";
+            this.lbl_12.Size = new System.Drawing.Size(144, 20);
+            this.lbl_12.TabIndex = 1;
+            this.lbl_12.Text = "Link chế độ thường";
+            // 
+            // lbl_11
+            // 
+            this.lbl_11.AutoSize = true;
+            this.lbl_11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_11.Location = new System.Drawing.Point(6, 28);
+            this.lbl_11.Name = "lbl_11";
+            this.lbl_11.Size = new System.Drawing.Size(140, 20);
+            this.lbl_11.TabIndex = 0;
+            this.lbl_11.Text = "Link Hi-Low Check";
+            // 
+            // grb_2
+            // 
+            this.grb_2.Controls.Add(this.txb_N_CE);
+            this.grb_2.Controls.Add(this.txb_HL_CE);
+            this.grb_2.Controls.Add(this.lbl_22);
+            this.grb_2.Controls.Add(this.lbl_21);
+            this.grb_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grb_2.Location = new System.Drawing.Point(16, 170);
+            this.grb_2.Name = "grb_2";
+            this.grb_2.Size = new System.Drawing.Size(573, 153);
+            this.grb_2.TabIndex = 4;
+            this.grb_2.TabStop = false;
+            this.grb_2.Text = "Có dấu CE";
             // 
             // txb_N_CE
             // 
@@ -133,33 +133,33 @@
             this.txb_HL_CE.Size = new System.Drawing.Size(403, 49);
             this.txb_HL_CE.TabIndex = 2;
             // 
-            // label3
+            // lbl_22
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(6, 90);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(144, 20);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Link chế độ thường";
+            this.lbl_22.AutoSize = true;
+            this.lbl_22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_22.Location = new System.Drawing.Point(6, 90);
+            this.lbl_22.Name = "lbl_22";
+            this.lbl_22.Size = new System.Drawing.Size(144, 20);
+            this.lbl_22.TabIndex = 1;
+            this.lbl_22.Text = "Link chế độ thường";
             // 
-            // label4
+            // lbl_21
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(6, 28);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(140, 20);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Link Hi-Low Check";
+            this.lbl_21.AutoSize = true;
+            this.lbl_21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_21.Location = new System.Drawing.Point(6, 28);
+            this.lbl_21.Name = "lbl_21";
+            this.lbl_21.Size = new System.Drawing.Size(140, 20);
+            this.lbl_21.TabIndex = 0;
+            this.lbl_21.Text = "Link Hi-Low Check";
             // 
             // SetUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(603, 370);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.grb_2);
+            this.Controls.Add(this.grb_1);
             this.Controls.Add(this.btn_save);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
@@ -168,25 +168,25 @@
             this.Name = "SetUp";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SetUp";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.grb_1.ResumeLayout(false);
+            this.grb_1.PerformLayout();
+            this.grb_2.ResumeLayout(false);
+            this.grb_2.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
         private System.Windows.Forms.Button btn_save;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox grb_1;
         private System.Windows.Forms.TextBox txb_N;
         private System.Windows.Forms.TextBox txb_HL;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label lbl_12;
+        private System.Windows.Forms.Label lbl_11;
+        private System.Windows.Forms.GroupBox grb_2;
         private System.Windows.Forms.TextBox txb_N_CE;
         private System.Windows.Forms.TextBox txb_HL_CE;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lbl_22;
+        private System.Windows.Forms.Label lbl_21;
     }
 }

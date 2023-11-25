@@ -98,3 +98,23 @@ C:\Users\PC\Desktop\New folder (3)\SelectWeightTVC\Weight\obj\x86\Debug\Weight.c
 C:\Users\PC\Desktop\New folder (3)\SelectWeightTVC\Weight\obj\x86\Debug\Weight.csproj.CoreCompileInputs.cache
 C:\Users\PC\Desktop\New folder (3)\SelectWeightTVC\Weight\obj\x86\Debug\Weight.exe
 C:\Users\PC\Desktop\New folder (3)\SelectWeightTVC\Weight\obj\x86\Debug\Weight.pdb
+C:\Users\PC\Desktop\SelectWeightTVC\Weight\bin\x86\Debug\Weight.exe.config
+C:\Users\PC\Desktop\SelectWeightTVC\Weight\bin\x86\Debug\Weight.exe
+C:\Users\PC\Desktop\SelectWeightTVC\Weight\bin\x86\Debug\Weight.pdb
+C:\Users\PC\Desktop\SelectWeightTVC\Weight\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\PC\Desktop\SelectWeightTVC\Weight\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\PC\Desktop\SelectWeightTVC\Weight\obj\x86\Debug\Weight.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\SelectWeightTVC\Weight\obj\x86\Debug\Weight.ChangePassWord.resources
+C:\Users\PC\Desktop\SelectWeightTVC\Weight\obj\x86\Debug\Weight.Form1.resources
+C:\Users\PC\Desktop\SelectWeightTVC\Weight\obj\x86\Debug\Weight.FrHiLowCheck.resources
+C:\Users\PC\Desktop\SelectWeightTVC\Weight\obj\x86\Debug\Weight.FrNormalCheck.resources
+C:\Users\PC\Desktop\SelectWeightTVC\Weight\obj\x86\Debug\Weight.Login.resources
+C:\Users\PC\Desktop\SelectWeightTVC\Weight\obj\x86\Debug\Weight.Properties.Resources.resources
+C:\Users\PC\Desktop\SelectWeightTVC\Weight\obj\x86\Debug\Weight.SetUp.resources
+C:\Users\PC\Desktop\SelectWeightTVC\Weight\obj\x86\Debug\Weight.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\SelectWeightTVC\Weight\obj\x86\Debug\Weight.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\SelectWeightTVC\Weight\obj\x86\Debug\Weight.csproj.CopyComplete
+C:\Users\PC\Desktop\SelectWeightTVC\Weight\obj\x86\Debug\Weight.exe
+C:\Users\PC\Desktop\SelectWeightTVC\Weight\obj\x86\Debug\Weight.pdb
+C:\Users\PC\Desktop\SelectWeightTVC\Weight\bin\x86\Debug\Mode.txt
+C:\Users\PC\Desktop\SelectWeightTVC\Weight\bin\x86\Debug\Config.json

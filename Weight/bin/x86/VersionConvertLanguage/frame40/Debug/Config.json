@@ -1,0 +1,86 @@
+﻿{
+  "Version": "Version1",
+  "VietNamese": {
+    "MainForm": {
+      "Title": "Phần mềm lựa chọn chương trình cân trọng lượng",
+      "Header": "Hãy lựa chọn chế độ cân",
+      "Mode1": "Chế độ kiểm tra HI-Low Check",
+      "Mode2": "Chế độ chạy thường",
+      "Language": "日本語"
+    },
+    "SetupForm": {
+      "NoneCe": "Không dấu CE",
+      "Link1": "Link Hi-Low Check",
+      "Link2": "Link chế độ thường",
+      "HaveCe": "Có dấu CE",
+      "TitleNotify": "Thông báo",
+      "NotifySucces": "Cập nhật thành công",
+      "Notify1": "Chưa cài đặt Link Hi-Low check có dấu CE",
+      "Notify2": "Chưa cài đặt Link chế độ thường có dấu CE",
+      "Notify3": "Chưa cài đặt Link Hi-Low check không có dấu CE",
+      "Notify4": "Chưa cài đặt Link chế độ thường không có dấu CE",
+      "Notify5": "Link Hi-Lo Check có dấu CE bị lặp",
+      "Notify6": "Link chế độ thường có dấu CE bị lặp",
+      "Notify7": "Link Hi-Lo Check không có dấu CE bị lặp",
+      "Notify8": "Link chế độ thường không có dấu CE bị lặp"
+    },
+    "HiLowForm": {
+      "Title": "Chế độ Hi-Low Check",
+      "Header": "Barcode Lot sản phẩm",
+      "Notify1": "Không tìm thấy File",
+      "Notify2": "Sai định dạng",
+      "Type1": "Không có dấu CE (HDSD quyền)",
+      "Type2": "Có dấu CE (HDSD A1)"
+    },
+    "NormalForm": {
+      "Title": "Chế độ Hi-Low Check",
+      "Header": "Barcode Lot sản phẩm",
+      "Notify1": "Không tìm thấy File",
+      "Notify2": "Sai định dạng",
+      "Type1": "Không có dấu CE (HDSD quyền)",
+      "Type2": "Có dấu CE (HDSD A1)"
+    }
+  },
+  "Japanese": {
+    "MainForm": {
+      "Title": "重量検査プログラム選択ソフトウェア",
+      "Header": "重量検査モードを選択してください！",
+      "Mode1": "Hi-Low checkモード",
+      "Mode2": "通常稼働モード",
+      "Language": "Tiếng Việt"
+    },
+    "SetupForm": {
+      "NoneCe": "CEマーク無し",
+      "Link1": "Hi-Lowチェックリンク",
+      "Link2": "通常モードリンク",
+      "HaveCe": "CEマーク",
+      "TitleNotify": "警報",
+      "NotifySucces": "更新成功",
+      "Notify1": "CEマーク有りのHi-Lowチェックリンク未設定",
+      "Notify2": "CEマーク有りの通常モードリンク未設定",
+      "Notify3": "CEマーク無しのHi-Lowチェックリンク未設定",
+      "Notify4": "CEマーク無しの通常モードリンク未設定",
+      "Notify5": "CEマーク有りのHi-Lowチェックリンク重複",
+      "Notify6": "CEマーク有りの通常モードリンク重複",
+      "Notify7": "CEマーク無しのHi-Lowチェックリンク重複",
+      "Notify8": "CEマーク無しの通常モードリンク重複"
+    },
+    "HiLowForm": {
+      "Title": "Hi-Low checkモード",
+      "Header": "製品ロット番号を読み取る。",
+      "Notify1": "ファイルが見つからない。",
+      "Notify2": "番号を誤って読み取る。やり直し要求",
+      "Type1": "CEマーク無し（冊子）",
+      "Type2": "CEマーク（A1　IFU）"
+      
+    },
+    "NormalForm": {
+      "Title": "通常稼働モード",
+      "Header": "製品ロット番号を読み取る。",
+      "Notify1": "ファイルが見つからない。",
+      "Notify2": "番号を誤って読み取る。やり直し要求",
+      "Type1": "CEマーク無し（冊子）",
+      "Type2": "CEマーク（A1　IFU）"
+    }
+  }
+}

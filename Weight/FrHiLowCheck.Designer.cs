@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbl_header = new System.Windows.Forms.Label();
             this.txb_Lot = new System.Windows.Forms.TextBox();
             this.lbl_mode = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -37,15 +37,15 @@
             this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
-            // label1
+            // lbl_header
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(219, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Barcode Lot sản phẩm";
+            this.lbl_header.AutoSize = true;
+            this.lbl_header.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_header.Location = new System.Drawing.Point(12, 9);
+            this.lbl_header.Name = "lbl_header";
+            this.lbl_header.Size = new System.Drawing.Size(219, 24);
+            this.lbl_header.TabIndex = 0;
+            this.lbl_header.Text = "Barcode Lot sản phẩm";
             // 
             // txb_Lot
             // 
@@ -92,7 +92,7 @@
             this.ClientSize = new System.Drawing.Size(473, 189);
             this.Controls.Add(this.lbl_mode);
             this.Controls.Add(this.txb_Lot);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl_header);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -107,7 +107,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbl_header;
         private System.Windows.Forms.TextBox txb_Lot;
         private System.Windows.Forms.Label lbl_mode;
         private System.Windows.Forms.Timer timer1;

@@ -14,52 +14,77 @@ namespace Weight
         public SetUp()
         {
             InitializeComponent();
-            getconfig();
-        }
+            try
+            {
+                getconfig();
+                UpdateUI();
+            }
+            catch (Exception ex)
+            {
 
+                MessageBox.Show(ex.Message);
+            }
+            
+        }
+        public void UpdateUI()
+        {
+            grb_1.Text = ConverLanguage.SetupForm.NoneCe;
+            grb_2.Text = ConverLanguage.SetupForm.HaveCe;
+            lbl_11.Text = ConverLanguage.SetupForm.Link1;
+            lbl_21.Text = ConverLanguage.SetupForm.Link1;
+            lbl_22.Text = ConverLanguage.SetupForm.Link2;
+            lbl_12.Text = ConverLanguage.SetupForm.Link2;
+
+
+        }
         private void btn_save_Click(object sender, EventArgs e)
         {
             try
             {
                 if (txb_HL.Text == "")
                 {
-                    MessageBox.Show("Chưa cài đặt link Hi-Low check không dấu CE", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    //MessageBox.Show($"Chưa cài đặt link Hi-Low check không dấu CE", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show($"{ConverLanguage.SetupForm.Notify3}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
                 }
                 else if(txb_N.Text =="")
                 {
-                    MessageBox.Show("Chưa cài đặt link chế độ thường không dấu CE", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    //MessageBox.Show("Chưa cài đặt link chế độ thường không dấu CE", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show($"{ConverLanguage.SetupForm.Notify4}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else if(txb_HL_CE.Text =="")
                 {
-                    MessageBox.Show("Chưa cài đặt link Hi-Low check có dấu CE", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                   // MessageBox.Show("Chưa cài đặt link Hi-Low check có dấu CE", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show($"{ConverLanguage.SetupForm.Notify1}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else if(txb_N_CE.Text == "")
                 {
-                    MessageBox.Show("Chưa cài đặt link chế độ thường có dấu CE", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show($"{ConverLanguage.SetupForm.Notify2}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else if (txb_HL.Text == txb_N.Text || txb_HL.Text == txb_HL_CE.Text || txb_HL.Text == txb_N_CE.Text)
                 {
-                    MessageBox.Show("Link Hi-Low check không dấu CE bị lặp", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    //MessageBox.Show("Link Hi-Low check không dấu CE bị lặp", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show($"{ConverLanguage.SetupForm.Notify7}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else if (txb_N.Text == txb_HL_CE.Text || txb_N.Text == txb_N_CE.Text)
                 {
-                    MessageBox.Show("Link chế độ thường không dấu CE bị lặp", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show($"{ConverLanguage.SetupForm.Notify8}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else if(txb_HL_CE.Text == txb_N_CE.Text)
                 {
-                    MessageBox.Show("Link Hi-Low check có dấu CE bị lặp", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show($"{ConverLanguage.SetupForm.Notify5}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else
                 {
                     writecsv();
-                    MessageBox.Show("Cập nhật thành công");
+                    MessageBox.Show($"{ConverLanguage.SetupForm.NotifySucces}",$"{ConverLanguage.SetupForm.TitleNotify}");
                 }
                
             }
             catch (Exception ex)
             {
 
-                MessageBox.Show(ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         public void writecsv()
@@ -108,7 +133,7 @@ namespace Weight
             catch (Exception ex)
             {
 
-                MessageBox.Show(ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 this.Close();
             }
 

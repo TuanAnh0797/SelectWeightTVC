@@ -18,8 +18,23 @@ namespace Weight
         public FrHiLowCheck()
         {
             InitializeComponent();
-            getconfig();
+            try
+            {
+                getconfig();
+                UpdateUI();
+            }
+            catch (Exception ex)
+            {
 
+                MessageBox.Show(ex.Message);
+            }
+          
+
+        }
+        public void UpdateUI()
+        {
+            this.Text = ConverLanguage.HiLowForm.Title;
+            lbl_header.Text = ConverLanguage.HiLowForm.Header;
         }
         public void getconfig()
         {
@@ -43,7 +58,7 @@ namespace Weight
             catch (Exception ex)
             {
 
-                MessageBox.Show(ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 this.Close();
             }
 
@@ -136,7 +151,7 @@ namespace Weight
             catch (Exception ex)
             {
                 timer1.Stop();
-                MessageBox.Show(ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
            
            
@@ -154,7 +169,7 @@ namespace Weight
             catch (Exception ex)
             {
                 timer2.Stop();
-                MessageBox.Show(ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
            
         }
@@ -172,7 +187,7 @@ namespace Weight
                 {
                     if (System.IO.File.Exists(filePathCE))
                     {
-                        lbl_mode.Text = "Có dấu CE (HDSD A1)";
+                        lbl_mode.Text = $"{ConverLanguage.HiLowForm.Type2}";
                         lbl_mode.BackColor = Color.LightGreen;
                         lbl_mode.Visible = true;
                         timer3.Stop();
@@ -181,7 +196,7 @@ namespace Weight
                     else
                     {
                         timer3.Stop();
-                        MessageBox.Show($"Không tìm thấy File \n {filePathCE}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show($"{ConverLanguage.HiLowForm.Notify1} \n {filePathCE}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
 
                 }
@@ -191,7 +206,7 @@ namespace Weight
                     {
                         if (System.IO.File.Exists(filePathCE))
                         {
-                            lbl_mode.Text = "Có dấu CE (HDSD A1)";
+                            lbl_mode.Text = $"{ConverLanguage.HiLowForm.Type2}";
                             lbl_mode.BackColor = Color.LightGreen;
                             lbl_mode.Visible = true;
                             timer3.Stop();
@@ -200,14 +215,15 @@ namespace Weight
                         else
                         {
                             timer3.Stop();
-                            MessageBox.Show($"Không tìm thấy File \n {filePathCE}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show($"{ConverLanguage.HiLowForm.Notify1} \n {filePathCE}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
                         }
                     }
                     else if (txb_Lot.Text.Substring(6, 2) == "TA")
                     {
                         if (System.IO.File.Exists(filePathnoneCE))
                         {
-                            lbl_mode.Text = "Không có dấu CE (HDSD quyển)";
+                            lbl_mode.Text = $"{ConverLanguage.HiLowForm.Type1}";
                             lbl_mode.BackColor = Color.LightYellow;
                             lbl_mode.Visible = true;
                             timer3.Stop();
@@ -216,25 +232,26 @@ namespace Weight
                         else
                         {
                             timer3.Stop();
-                            MessageBox.Show($"Không tìm thấy File \n {filePathnoneCE}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show($"{ConverLanguage.HiLowForm.Notify1} \n {filePathCE}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
                         }
                     }
                     else
                     {
                         timer3.Stop();
-                        MessageBox.Show($"Sai định dạng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show($"{ConverLanguage.HiLowForm.Notify2}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
                 else
                 {
                     timer3.Stop();
-                    MessageBox.Show($"Sai định dạng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"{ConverLanguage.HiLowForm.Notify2}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             catch (Exception ex)
             {
                 timer3.Stop();
-                MessageBox.Show(ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "ERROR báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             }
             txb_Lot.Text = "";
