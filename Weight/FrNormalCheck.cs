@@ -111,7 +111,7 @@ namespace Weight
         {
             try
             {
-                if (txb_lot.Text.Length == 7 && txb_lot.Text.Substring(6, 1) == "A")
+                if (txb_lot.Text.Length == 7)
                 {
                     if (System.IO.File.Exists(filePathCE))
                     {
