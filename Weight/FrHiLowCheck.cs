@@ -202,28 +202,11 @@ namespace Weight
                 }
                 else if (txb_Lot.Text.Length == 8)
                 {
-                    if (txb_Lot.Text.Substring(6, 2) == "VA")
-                    {
-                        if (System.IO.File.Exists(filePathCE))
-                        {
-                            lbl_mode.Text = $"{ConverLanguage.HiLowForm.Type2}";
-                            lbl_mode.BackColor = Color.LightGreen;
-                            lbl_mode.Visible = true;
-                            timer3.Stop();
-                            timer1.Start();
-                        }
-                        else
-                        {
-                            timer3.Stop();
-                            MessageBox.Show($"{ConverLanguage.HiLowForm.Notify1} \n {filePathCE}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-                        }
-                    }
-                    else if (txb_Lot.Text.Substring(6, 2) == "TA")
+                    if (txb_Lot.Text.Substring(6, 1) == "T")
                     {
                         if (System.IO.File.Exists(filePathnoneCE))
                         {
-                            lbl_mode.Text = $"{ConverLanguage.HiLowForm.Type1}";
+                            lbl_mode.Text = $"{ConverLanguage.NormalForm.Type1}";
                             lbl_mode.BackColor = Color.LightYellow;
                             lbl_mode.Visible = true;
                             timer3.Stop();
@@ -232,14 +215,26 @@ namespace Weight
                         else
                         {
                             timer3.Stop();
-                            MessageBox.Show($"{ConverLanguage.HiLowForm.Notify1} \n {filePathCE}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show($"{ConverLanguage.NormalForm.Notify1} \n {filePathCE}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                         }
                     }
                     else
                     {
-                        timer3.Stop();
-                        MessageBox.Show($"{ConverLanguage.HiLowForm.Notify2}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        if (System.IO.File.Exists(filePathCE))
+                        {
+                            lbl_mode.Text = $"{ConverLanguage.NormalForm.Type2}";
+                            lbl_mode.BackColor = Color.LightGreen;
+                            lbl_mode.Visible = true;
+                            timer3.Stop();
+                            timer1.Start();
+                        }
+                        else
+                        {
+                            timer3.Stop();
+                            MessageBox.Show($"{ConverLanguage.NormalForm.Notify1} \n {filePathCE}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                        }
                     }
                 }
                 else
