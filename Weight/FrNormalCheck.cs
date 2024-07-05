@@ -111,24 +111,72 @@ namespace Weight
         {
             try
             {
-                if (txb_lot.Text.Length == 7)
-                {
-                    if (System.IO.File.Exists(filePathCE))
-                    {
-                        lbl_mode.Text = $"{ConverLanguage.NormalForm.Type2}";
-                        lbl_mode.BackColor = Color.LightGreen;
-                        lbl_mode.Visible = true;
-                        timer3.Stop();
-                        timer1.Start();
-                    }
-                    else
-                    {
-                        timer3.Stop();
-                        MessageBox.Show($"{ConverLanguage.NormalForm.Notify1} \n {filePathCE}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
+                //if (txb_lot.Text.Length == 7)
+                //{
+                //    if (System.IO.File.Exists(filePathCE))
+                //    {
+                //        lbl_mode.Text = $"{ConverLanguage.NormalForm.Type2}";
+                //        lbl_mode.BackColor = Color.LightGreen;
+                //        lbl_mode.Visible = true;
+                //        timer3.Stop();
+                //        timer1.Start();
+                //    }
+                //    else
+                //    {
+                //        timer3.Stop();
+                //        MessageBox.Show($"{ConverLanguage.NormalForm.Notify1} \n {filePathCE}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //    }
 
-                }
-                else if (txb_lot.Text.Length == 8)
+                //}
+                //else if (txb_lot.Text.Length == 8)
+                //{
+                //    if (txb_lot.Text.Substring(6, 1) == "T")
+                //    {
+                //        if (System.IO.File.Exists(filePathnoneCE))
+                //        {
+                //            lbl_mode.Text = $"{ConverLanguage.NormalForm.Type1}";
+                //            lbl_mode.BackColor = Color.LightYellow;
+                //            lbl_mode.Visible = true;
+                //            timer3.Stop();
+                //            timer2.Start();
+                //        }
+                //        else
+                //        {
+                //            timer3.Stop();
+                //            MessageBox.Show($"{ConverLanguage.NormalForm.Notify1} \n {filePathCE}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                //        }
+                //    }
+                //   else
+                //    {
+                //        if (System.IO.File.Exists(filePathCE))
+                //        {
+                //            lbl_mode.Text = $"{ConverLanguage.NormalForm.Type2}";
+                //            lbl_mode.BackColor = Color.LightGreen;
+                //            lbl_mode.Visible = true;
+                //            timer3.Stop();
+                //            timer1.Start();
+                //        }
+                //        else
+                //        {
+                //            timer3.Stop();
+                //            MessageBox.Show($"{ConverLanguage.NormalForm.Notify1} \n {filePathCE}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                //        }
+                //     }
+
+                //    //else
+                //    //{
+                //    //    timer3.Stop();
+                //    //    MessageBox.Show($"{ConverLanguage.NormalForm.Notify2}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //    //}
+                //}
+                //else
+                //{
+                //    timer3.Stop();
+                //    MessageBox.Show($"{ConverLanguage.NormalForm.Notify2}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //}
+                if (txb_lot.Text.Length == 7)
                 {
                     if (txb_lot.Text.Substring(6, 1) == "T")
                     {
@@ -147,7 +195,7 @@ namespace Weight
 
                         }
                     }
-                   else
+                    else if (txb_lot.Text.Substring(6, 1) == "V")
                     {
                         if (System.IO.File.Exists(filePathCE))
                         {
@@ -163,18 +211,12 @@ namespace Weight
                             MessageBox.Show($"{ConverLanguage.NormalForm.Notify1} \n {filePathCE}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                         }
-                     }
-                   
-                    //else
-                    //{
-                    //    timer3.Stop();
-                    //    MessageBox.Show($"{ConverLanguage.NormalForm.Notify2}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    //}
-                }
-                else
-                {
-                    timer3.Stop();
-                    MessageBox.Show($"{ConverLanguage.NormalForm.Notify2}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    else
+                    {
+                        timer3.Stop();
+                        MessageBox.Show($"{ConverLanguage.HiLowForm.Notify2}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             }
             catch (Exception ex)

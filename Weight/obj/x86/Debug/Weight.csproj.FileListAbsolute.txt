@@ -138,3 +138,23 @@ C:\Users\70P7970\Desktop\SelectWeightTVC\Weight\obj\x86\Debug\Weight.csproj.Core
 C:\Users\70P7970\Desktop\SelectWeightTVC\Weight\obj\x86\Debug\Weight.csproj.CopyComplete
 C:\Users\70P7970\Desktop\SelectWeightTVC\Weight\obj\x86\Debug\Weight.exe
 C:\Users\70P7970\Desktop\SelectWeightTVC\Weight\obj\x86\Debug\Weight.pdb
+C:\Users\70P7970\Desktop\New folder (3)\SelectWeightTVC\Weight\bin\x86\Debug\Mode.txt
+C:\Users\70P7970\Desktop\New folder (3)\SelectWeightTVC\Weight\bin\x86\Debug\Config.json
+C:\Users\70P7970\Desktop\New folder (3)\SelectWeightTVC\Weight\bin\x86\Debug\Weight.exe.config
+C:\Users\70P7970\Desktop\New folder (3)\SelectWeightTVC\Weight\bin\x86\Debug\Weight.exe
+C:\Users\70P7970\Desktop\New folder (3)\SelectWeightTVC\Weight\bin\x86\Debug\Weight.pdb
+C:\Users\70P7970\Desktop\New folder (3)\SelectWeightTVC\Weight\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\70P7970\Desktop\New folder (3)\SelectWeightTVC\Weight\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\70P7970\Desktop\New folder (3)\SelectWeightTVC\Weight\obj\x86\Debug\Weight.csproj.AssemblyReference.cache
+C:\Users\70P7970\Desktop\New folder (3)\SelectWeightTVC\Weight\obj\x86\Debug\Weight.ChangePassWord.resources
+C:\Users\70P7970\Desktop\New folder (3)\SelectWeightTVC\Weight\obj\x86\Debug\Weight.Form1.resources
+C:\Users\70P7970\Desktop\New folder (3)\SelectWeightTVC\Weight\obj\x86\Debug\Weight.FrHiLowCheck.resources
+C:\Users\70P7970\Desktop\New folder (3)\SelectWeightTVC\Weight\obj\x86\Debug\Weight.FrNormalCheck.resources
+C:\Users\70P7970\Desktop\New folder (3)\SelectWeightTVC\Weight\obj\x86\Debug\Weight.Login.resources
+C:\Users\70P7970\Desktop\New folder (3)\SelectWeightTVC\Weight\obj\x86\Debug\Weight.Properties.Resources.resources
+C:\Users\70P7970\Desktop\New folder (3)\SelectWeightTVC\Weight\obj\x86\Debug\Weight.SetUp.resources
+C:\Users\70P7970\Desktop\New folder (3)\SelectWeightTVC\Weight\obj\x86\Debug\Weight.csproj.GenerateResource.cache
+C:\Users\70P7970\Desktop\New folder (3)\SelectWeightTVC\Weight\obj\x86\Debug\Weight.csproj.CoreCompileInputs.cache
+C:\Users\70P7970\Desktop\New folder (3)\SelectWeightTVC\Weight\obj\x86\Debug\Weight.csproj.Up2Date
+C:\Users\70P7970\Desktop\New folder (3)\SelectWeightTVC\Weight\obj\x86\Debug\Weight.exe
+C:\Users\70P7970\Desktop\New folder (3)\SelectWeightTVC\Weight\obj\x86\Debug\Weight.pdb

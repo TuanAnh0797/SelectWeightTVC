@@ -28,7 +28,7 @@ namespace Weight
 
                 MessageBox.Show(ex.Message);
             }
-          
+
 
         }
         public void UpdateUI()
@@ -144,17 +144,17 @@ namespace Weight
         {
             try
             {
-                    Process.Start(filePathCE);
-                    timer1.Stop();
-                    Environment.Exit(0);
+                Process.Start(filePathCE);
+                timer1.Stop();
+                Environment.Exit(0);
             }
             catch (Exception ex)
             {
                 timer1.Stop();
                 MessageBox.Show(ex.Message, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-           
-           
+
+
 
         }
 
@@ -162,16 +162,16 @@ namespace Weight
         {
             try
             {
-                    Process.Start(filePathnoneCE);
-                    timer2.Stop();
-                    Environment.Exit(0);
+                Process.Start(filePathnoneCE);
+                timer2.Stop();
+                Environment.Exit(0);
             }
             catch (Exception ex)
             {
                 timer2.Stop();
                 MessageBox.Show(ex.Message, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-           
+
         }
 
         private void txb_Lot_MouseDown(object sender, MouseEventArgs e)
@@ -183,24 +183,25 @@ namespace Weight
         {
             try
             {
-                if (txb_Lot.Text.Length == 7 )
-                {
-                    if (System.IO.File.Exists(filePathCE))
-                    {
-                        lbl_mode.Text = $"{ConverLanguage.HiLowForm.Type2}";
-                        lbl_mode.BackColor = Color.LightGreen;
-                        lbl_mode.Visible = true;
-                        timer3.Stop();
-                        timer1.Start();
-                    }
-                    else
-                    {
-                        timer3.Stop();
-                        MessageBox.Show($"{ConverLanguage.HiLowForm.Notify1} \n {filePathCE}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
+                //if (txb_Lot.Text.Length == 7 )
+                //{
+                //    if (System.IO.File.Exists(filePathCE))
+                //    {
+                //        lbl_mode.Text = $"{ConverLanguage.HiLowForm.Type2}";
+                //        lbl_mode.BackColor = Color.LightGreen;
+                //        lbl_mode.Visible = true;
+                //        timer3.Stop();
+                //        timer1.Start();
+                //    }
+                //    else
+                //    {
+                //        timer3.Stop();
+                //        MessageBox.Show($"{ConverLanguage.HiLowForm.Notify1} \n {filePathCE}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //    }
 
-                }
-                else if (txb_Lot.Text.Length == 8)
+                //}
+                //else if (txb_Lot.Text.Length == 7)
+                if (txb_Lot.Text.Length == 7)
                 {
                     if (txb_Lot.Text.Substring(6, 1) == "T")
                     {
@@ -219,7 +220,7 @@ namespace Weight
 
                         }
                     }
-                    else
+                    else if(txb_Lot.Text.Substring(6, 1) == "V")
                     {
                         if (System.IO.File.Exists(filePathCE))
                         {
@@ -235,6 +236,11 @@ namespace Weight
                             MessageBox.Show($"{ConverLanguage.NormalForm.Notify1} \n {filePathCE}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                         }
+                    }
+                    else
+                    {
+                        timer3.Stop();
+                        MessageBox.Show($"{ConverLanguage.HiLowForm.Notify2}", $"{ConverLanguage.SetupForm.TitleNotify}", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
                 else

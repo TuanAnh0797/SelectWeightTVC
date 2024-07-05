@@ -1,0 +1,274 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\weight\\frhilowcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|solutionrelative:weight\\frhilowcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Weight||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\weight\\frnormalcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|solutionrelative:weight\\frnormalcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\weight\\frnormalcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|solutionrelative:weight\\frnormalcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\weight\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|solutionrelative:weight\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\weight\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|solutionrelative:weight\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\weight\\mode.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|solutionrelative:weight\\mode.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\weight\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|solutionrelative:weight\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\weight\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|solutionrelative:weight\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\weight\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|solutionrelative:weight\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\weight\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|solutionrelative:weight\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\weight\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|solutionrelative:weight\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\weight\\converlanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|solutionrelative:weight\\converlanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\weight\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|solutionrelative:weight\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\weight\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|solutionrelative:weight\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\weight\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|solutionrelative:weight\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F578A14-6AF7-4C56-B3D2-198453D5BB70}|Weight\\Weight.csproj|c:\\users\\70p7970\\desktop\\new folder (3)\\selectweighttvc\\weight\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\Config.cs",
+              "RelativeDocumentMoniker": "Weight\\Config.cs",
+              "ToolTip": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\Config.cs",
+              "RelativeToolTip": "Weight\\Config.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:34:15.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Mode.txt",
+              "DocumentMoniker": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\Mode.txt",
+              "RelativeDocumentMoniker": "Weight\\Mode.txt",
+              "ToolTip": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\Mode.txt",
+              "RelativeToolTip": "Weight\\Mode.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-07-04T06:34:15.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrHiLowCheck.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\FrHiLowCheck.cs",
+              "RelativeDocumentMoniker": "Weight\\FrHiLowCheck.cs",
+              "ToolTip": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\FrHiLowCheck.cs [Design]",
+              "RelativeToolTip": "Weight\\FrHiLowCheck.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:34:15.129Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SetUp.cs",
+              "DocumentMoniker": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\SetUp.cs",
+              "RelativeDocumentMoniker": "Weight\\SetUp.cs",
+              "ToolTip": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\SetUp.cs",
+              "RelativeToolTip": "Weight\\SetUp.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAEoAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-07-04T06:34:15.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChangePassWord.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\ChangePassWord.cs",
+              "RelativeDocumentMoniker": "Weight\\ChangePassWord.cs",
+              "ToolTip": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\ChangePassWord.cs [Design]",
+              "RelativeToolTip": "Weight\\ChangePassWord.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:34:15.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrNormalCheck.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\FrNormalCheck.cs",
+              "RelativeDocumentMoniker": "Weight\\FrNormalCheck.cs",
+              "ToolTip": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\FrNormalCheck.cs [Design]",
+              "RelativeToolTip": "Weight\\FrNormalCheck.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:34:15.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrNormalCheck.cs",
+              "DocumentMoniker": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\FrNormalCheck.cs",
+              "RelativeDocumentMoniker": "Weight\\FrNormalCheck.cs",
+              "ToolTip": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\FrNormalCheck.cs",
+              "RelativeToolTip": "Weight\\FrNormalCheck.cs",
+              "ViewState": "AQIAALMAAAAAAAAAAAAowMEAAACMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:34:15.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Weight",
+              "DocumentMoniker": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\Weight.csproj",
+              "RelativeDocumentMoniker": "Weight\\Weight.csproj",
+              "ToolTip": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\Weight.csproj",
+              "RelativeToolTip": "Weight\\Weight.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2023-12-18T06:51:48.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Config.json",
+              "DocumentMoniker": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\Config.json",
+              "RelativeDocumentMoniker": "Weight\\Config.json",
+              "ToolTip": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\Config.json",
+              "RelativeToolTip": "Weight\\Config.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-04T06:39:29.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\Form1.cs",
+              "RelativeDocumentMoniker": "Weight\\Form1.cs",
+              "ToolTip": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\Form1.cs [Design]",
+              "RelativeToolTip": "Weight\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:34:15.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\Form1.cs",
+              "RelativeDocumentMoniker": "Weight\\Form1.cs",
+              "ToolTip": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\Form1.cs",
+              "RelativeToolTip": "Weight\\Form1.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAhwFsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:34:15.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\Login.cs",
+              "RelativeDocumentMoniker": "Weight\\Login.cs",
+              "ToolTip": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\Login.cs [Design]",
+              "RelativeToolTip": "Weight\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:34:15.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ConverLanguage.cs",
+              "DocumentMoniker": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\ConverLanguage.cs",
+              "RelativeDocumentMoniker": "Weight\\ConverLanguage.cs",
+              "ToolTip": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\ConverLanguage.cs",
+              "RelativeToolTip": "Weight\\ConverLanguage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:34:15.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\Program.cs",
+              "RelativeDocumentMoniker": "Weight\\Program.cs",
+              "ToolTip": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\Program.cs",
+              "RelativeToolTip": "Weight\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:34:15.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\Login.cs",
+              "RelativeDocumentMoniker": "Weight\\Login.cs",
+              "ToolTip": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\Login.cs",
+              "RelativeToolTip": "Weight\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:34:15.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChangePassWord.cs",
+              "DocumentMoniker": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\ChangePassWord.cs",
+              "RelativeDocumentMoniker": "Weight\\ChangePassWord.cs",
+              "ToolTip": "C:\\Users\\70P7970\\Desktop\\New folder (3)\\SelectWeightTVC\\Weight\\ChangePassWord.cs",
+              "RelativeToolTip": "Weight\\ChangePassWord.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:34:15.133Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
